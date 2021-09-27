@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 
+<div>
 <body>
 	
 	<h1> Five Largest Protests in U.S. History </h1>
 
-	<img src="image/largest-protests.jpg">
+	<figure>
+		<img src="image/largest-protests.jpg" alt="Protest">
+		<figcaption>Protestors march to the White House as part of the Pride and Black Lives Matter movements on June 13, 2020, in Washington. Photo from CNN. </figcaption>
+	</figure> 
+
 	<!- - source of photo: https://www.cnn.com/2020/06/23/politics/black-lives-matter-support-impact/index.html - - > 
 
 
 	<p>Listed below are the top five most attended protests in the country's history:</p>
 
 	<ol>
-		<li><a href="https://en.wikipedia.org/wiki/George_Floyd_protests">George Floyd protests nationwide with up to 26 million protestors.</a></li>
+		<li><a name="paisley_text" href="https://en.wikipedia.org/wiki/George_Floyd_protests">George Floyd protests nationwide with up to 26 million protestors.</a></li>
 
 		<li><a href="https://en.wikipedia.org/wiki/Earth_Day">Earth Day protests in 1970 across the country drew about 20 million protestors.</a></li>
 
@@ -23,6 +28,39 @@
 
 	</ol>
 
-	<p>Compiled from wikipedia</p>
+	<p name="footnote">Compiled from wikipedia</p>
 
+</div>
+
+
+	<style type="text/css">
+
+		figcaption {
+			color:  darkgrey; font-style: italic;
+		}
+
+		h1 {text-transform:  uppercase}
+
+		h1 {text-align: center; font-weight: bold;}
+
+		a {
+			color: red;
+		}
+
+		a[name='paisley_text'] {
+			color: green;
+		}
+
+		c {color: darkgrey;}
+
+		p[name='footnote'] {
+			color:  darkgrey;
+		}
+
+		div {text: Georgia, serif}
+		div {background-color: lightpink;}
+
+	</style>
 </body>
+</html>
+
